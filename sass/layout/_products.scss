@@ -121,7 +121,7 @@
 
 .products__container--icecream::before {
   content: "";
-  background-image: url(../../img-IceCream/home-pic1-m@1x.png);
+  background-image: url(../img-IceCream/home-pic1-m@1x.png);
   background-position: center;
   display: inline-block;
   height: 252px;
@@ -132,13 +132,13 @@
   margin-top: 31px;
 
   @media screen and (min-width: 768px) {
-    background-image: url(../../img-IceCream/home-pic1-t@1x.png);
+    background-image: url(../img-IceCream/home-pic1-t@1x.png);
     height: 226px;
     width: 220px;
   }
 
   @media screen and (min-width: 1200px) {
-    background-image: url(../../img-IceCream/home-pic1-d@1x.png);
+    background-image: url(../img-IceCream/home-pic1-d@1x.png);
     height: 335px;
     width: 335px;
   }
@@ -146,7 +146,7 @@
 
 .products__container--icecoffee::before {
   content: "";
-  background-image: url(../../img-IceCream/home-pic2-m@1x.png);
+  background-image: url(../img-IceCream/home-pic2-m@1x.png);
   background-position: center;
   display: inline-block;
   height: 252px;
@@ -156,20 +156,20 @@
   transform: translate(0%, -50%);
 
   @media screen and (min-width: 768px) {
-    background-image: url(../../img-IceCream/home-pic2-t@1x.png);
+    background-image: url(../img-IceCream/home-pic2-t@1x.png);
     height: 233px;
     width: 220px;
   }
 
   @media screen and (min-width: 1200px) {
-    background-image: url(../../img-IceCream/home-pic2-d@1x.png);
+    background-image: url(../img-IceCream/home-pic2-d@1x.png);
     height: 335px;
     width: 337px;
   }
 }
 .products__container--milkshakes::before {
   content: "";
-  background-image: url(../../img-IceCream/home-pic3-m@1x.png);
+  background-image: url(../img-IceCream/home-pic3-m@1x.png);
   background-position: center;
   display: inline-block;
   height: 252px;
@@ -179,14 +179,14 @@
   transform: translate(0%, -50%);
 
   @media screen and (min-width: 768px) {
-    background-image: url(../../img-IceCream/home-pic3-t@1x.png);
+    background-image: url(../img-IceCream/home-pic3-t@1x.png);
     height: 224px;
     width: 220px;
     margin-top: 48px;
   }
 
   @media screen and (min-width: 1200px) {
-    background-image: url(../../img-IceCream/home-pic3-d@1x.png);
+    background-image: url(../img-IceCream/home-pic3-d@1x.png);
     height: 335px;
     width: 335px;
     margin-top: 49px;
@@ -238,7 +238,7 @@
   border: transparent;
   width: 40px;
   height: 40px;
-  background-image: url(../../img-IceCream/arrow-right.png);
+  background-image: url(../img-IceCream/arrow-right.png);
   cursor: pointer;
 }
 
@@ -248,7 +248,7 @@
   background-position: center;
   width: 26px;
   height: 6px;
-  background-image: url(../../img-IceCream/points.svg);
+  background-image: url(../img-IceCream/points.svg);
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
