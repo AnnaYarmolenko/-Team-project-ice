@@ -118,7 +118,9 @@
     margin-top: 49px;
   }
 }
-
+.products__container {
+  position: relative;
+}
 .products__container--icecream::before {
   content: "";
   background-image: url(../img-IceCream/home-pic1-m@1x.png);
@@ -127,8 +129,8 @@
   height: 252px;
   width: 249px;
   background-size: contain;
-  position: absolute;
-  transform: translate(0%, -50%);
+  // position: absolute;
+  transform: translate(0%, 100%);
 
   @media screen and (min-width: 768px) {
     background-image: url(../img-IceCream/home-pic1-t@1x.png);
@@ -151,8 +153,8 @@
   height: 252px;
   width: 249px;
   background-size: contain;
-  position: absolute;
-  transform: translate(0%, -50%);
+  // position: absolute;
+  transform: translate(0%, 100%);
 
   @media screen and (min-width: 768px) {
     background-image: url(../img-IceCream/home-pic2-t@1x.png);
@@ -174,8 +176,8 @@
   height: 252px;
   width: 249px;
   background-size: contain;
-  position: absolute;
-  transform: translate(0%, -50%);
+  // position: absolute;
+  transform: translate(0%, 100%);
 
   @media screen and (min-width: 768px) {
     background-image: url(../img-IceCream/home-pic3-t@1x.png);
@@ -196,6 +198,10 @@
   padding-right: 39px;
   width: 100%;
   margin-top: 113px;
+
+  @media screen and (max-width: 768px) {
+    max-width: 280px;
+  }
 
   &--icecream {
     background-color: #ffb8ca;
