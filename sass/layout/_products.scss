@@ -61,8 +61,11 @@
 }
 .products {
   display: flex;
-  flex-wrap: wrap;
   width: 100%;
+
+  @media screen and (max-width: 768px) {
+    flex-wrap: wrap;
+  }
 }
 .products__item {
   position: relative;
@@ -130,18 +133,21 @@
   width: 249px;
   background-size: contain;
   // position: absolute;
-  transform: translate(0%, 100%);
+  // transform: translate(0%, 50%);
+  margin-bottom: -113px;
 
   @media screen and (min-width: 768px) {
     background-image: url(../img-IceCream/home-pic1-t@1x.png);
     height: 226px;
     width: 220px;
+    margin-bottom: -104px;
   }
 
   @media screen and (min-width: 1200px) {
     background-image: url(../img-IceCream/home-pic1-d@1x.png);
     height: 335px;
     width: 335px;
+    margin-bottom: -210px;
   }
 }
 
@@ -154,18 +160,21 @@
   width: 249px;
   background-size: contain;
   // position: absolute;
-  transform: translate(0%, 100%);
+  // transform: translate(0%, 50%);
+  margin-bottom: -113px;
 
   @media screen and (min-width: 768px) {
     background-image: url(../img-IceCream/home-pic2-t@1x.png);
     height: 233px;
     width: 220px;
+    margin-bottom: -111px;
   }
 
   @media screen and (min-width: 1200px) {
     background-image: url(../img-IceCream/home-pic2-d@1x.png);
     height: 335px;
     width: 337px;
+    margin-bottom: -210px;
   }
 }
 .products__container--milkshakes::before {
@@ -177,18 +186,21 @@
   width: 249px;
   background-size: contain;
   // position: absolute;
-  transform: translate(0%, 100%);
+  // transform: translate(0%, 50%);
+  margin-bottom: -113px;
 
   @media screen and (min-width: 768px) {
     background-image: url(../img-IceCream/home-pic3-t@1x.png);
     height: 224px;
     width: 220px;
+    margin-bottom: -102px;
   }
 
   @media screen and (min-width: 1200px) {
     background-image: url(../img-IceCream/home-pic3-d@1x.png);
     height: 335px;
     width: 335px;
+    margin-bottom: -210px;
   }
 }
 .products__card {
@@ -197,7 +209,6 @@
   padding-left: 41px;
   padding-right: 39px;
   width: 100%;
-  margin-top: 113px;
 
   @media screen and (max-width: 768px) {
     max-width: 280px;
@@ -242,6 +253,15 @@
   height: 40px;
   background-image: url(../img-IceCream/arrow-right.png);
   cursor: pointer;
+  margin-bottom: 41px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 40px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
 }
 
 .products__text::before {
