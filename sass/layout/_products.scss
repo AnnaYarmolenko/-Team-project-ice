@@ -129,7 +129,6 @@
   background-size: contain;
   position: absolute;
   transform: translate(0%, -50%);
-  margin-top: 31px;
 
   @media screen and (min-width: 768px) {
     background-image: url(../img-IceCream/home-pic1-t@1x.png);
@@ -182,19 +181,16 @@
     background-image: url(../img-IceCream/home-pic3-t@1x.png);
     height: 224px;
     width: 220px;
-    margin-top: 48px;
   }
 
   @media screen and (min-width: 1200px) {
     background-image: url(../img-IceCream/home-pic3-d@1x.png);
     height: 335px;
     width: 335px;
-    margin-top: 49px;
   }
 }
 .products__card {
   border-radius: 24px;
-
   height: 485px;
   padding-left: 41px;
   padding-right: 39px;
